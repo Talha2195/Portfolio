@@ -1,134 +1,134 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 #header {
-    position: relative;
-    flex-direction: column;
-    height: 80vh;
-    overflow: hidden; 
+  position: relative;
+  flex-direction: column;
+  height: 80vh;
+  overflow: hidden;
 }
 #headerSubDiv {
-    position: relative; 
-    background-color: #0093AF; 
-    display: flex;
-    justify-content: center;
-    height: 100%;
+  position: relative;
+  background-color: #0093af;
+  display: flex;
+  justify-content: center;
+  height: 100%;
 }
 
 #headerSubDiv::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(346deg, white 36%, transparent 1%);
-    z-index: 0; 
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(346deg, white 36%, transparent 1%);
+  z-index: 0;
 }
 
 #headerText {
-    margin-top: 130px;
-    background: white;
-    height: 50vh;
-    width: 90vh;
-    position: relative; 
-    z-index: 1;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 130px;
+  background: white;
+  height: 50vh;
+  width: 90vh;
+  position: relative;
+  z-index: 1;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 #headingOne {
-    font-family: "Playfair Display", serif;
-    font-size: 60px;
-    margin-left: 10px;
-    margin-bottom: 5px;
-    margin-top: 10px;
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 10px;
 }
 
 #paraOneDiv {
-    margin-left: 10px;
-    /* border: 1px solid black; */
-    width: 90%;
+  margin-left: 10px;
+  /* border: 1px solid black; */
+  width: 90%;
 }
 
 #paraOne {
-    font-family: "Playfair Display", serif;
-    font-size: 23px;
+  font-family: "Playfair Display", serif;
+  font-size: 23px;
 }
 
 #iconDiv {
-    margin-top: 20px;
-    margin-right: 20px;
-    /* border: 1px solid black; */
-    height: 40px;
-    width: 20%;
-    float: right;
-    display:flex;
-    justify-content: space-around;
+  margin-top: 10px;
+  margin-right: 20px;
+  /* border: 1px solid black; */
+  height: 40px;
+  width: 20%;
+  float: right;
+  display: flex;
+  justify-content: space-around;
 }
 
 #iconDiv > img {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
 
 #headerImage {
-    margin-top: 50px;
-    height: 70vh;
-    width: 70vh;
-    position: relative;
-    z-index: 1;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 90px;
+  height: 60vh;
+  width: 70vh;
+  position: relative;
+  z-index: 1;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 #nameDiv {
-    position: absolute; 
-    top: 60%; 
-    left: 49%; 
-    transform: translate(-115%, 140%); 
-    color: white; 
-    font-size: 85px; 
-    z-index: 1; 
+  position: absolute;
+  top: 60%;
+  left: 49%;
+  transform: translate(-115%, 108%);
+  color: white;
+  font-size: 85px;
+  z-index: 1;
 }
 
 #contentDiv {
-    /* border: 1px solid black; */
-    height: 130vh;
-    background-color: white;
+  /* border: 1px solid black; */
+  height: 130vh;
+  background-color: white;
 }
 
-#headerDiv > h2{
-    font-family: "Playfair Display", serif;
-    font-size: 40px;
-    color: 		#383838;
-    margin-top: 80px;
-    margin-bottom: 20px;
-    margin-left: 20px;
+#headerDiv > h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  color: #383838;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 #workDivOne,
 #workDivTwo {
-    display:flex;
-    justify-content: space-around;
-    /* border: 1px solid black; */
-    height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+  height: 50vh;
 }
 #workDivOne > div,
 #workDivTwo > div {
-    /* border: 1px solid red; */
-    width: 30%;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  /* border: 1px solid red; */
+  width: 30%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-#workDivTwo{
-    margin-top: 40px;
+#workDivTwo {
+  margin-top: 40px;
 }
 
 .colOne,
@@ -137,95 +137,169 @@ body {
 .colFour,
 .colFive,
 .colSix {
-    position: relative;
-    height: 60%;
-    /* background-color: blue; */
-    z-index: 1;
+  position: relative;
+  height: 60%;
+  /* background-color: blue; */
+  z-index: 1;
 }
 
 .colOne {
-    background: maroon;
+  background: maroon;
 }
-
 
 .colTwo {
-    background: rgba(89, 5, 193, 0.84);
+  background: rgba(89, 5, 193, 0.84);
 }
-
 
 .colThree {
-    background: green;
+  background: green;
 }
-
 
 .colFour {
-    background: pink;
+  background: pink;
 }
-
 
 .colFive {
-    background: orange;
+  background: orange;
 }
-
 
 .colSix {
-    background: lightblue;
+  background: lightblue;
 }
 
-.bot{
-    /* border: 1px solid black; */
-    height: 40%;
-    width:100%;
+.bot {
+  /* border: 1px solid black; */
+  height: 40%;
+  width: 100%;
 }
 
 .proName {
-    color: white;
-    font-size: 35px;
-    position: absolute;
-    transform: translate(30%, -200%); 
-    z-index: 1;
+  color: white;
+  font-size: 35px;
+  position: absolute;
+  transform: translate(30%, -200%);
+  z-index: 1;
 }
 
 .botSub {
-    display:flex;
-    /* border: 1px solid orange; */
-    height:40px;
-    width: 100%;
+  display: flex;
+  /* border: 1px solid orange; */
+  height: 40px;
+  width: 100%;
 }
 
-.boxIcons{
-    /* border: 1px solid black; */
-    display:flex;
-    padding-top: 5px;
-    width: 20%;
-    margin-left: 200px;
-    justify-content: space-around;
+.boxIcons {
+  /* border: 1px solid black; */
+  display: flex;
+  padding-top: 5px;
+  width: 20%;
+  margin-left: 200px;
+  justify-content: space-around;
 }
 
-.boxImg{
-    height: 20px;
-    width: 20px;
+.boxImg {
+  height: 20px;
+  width: 20px;
 }
 
-.name{
-    font-family: "Playfair Display", serif;
-    font-size: 20px;
-    margin-left:20px;
+.name {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  margin-left: 20px;
 }
 
 .paraTwo {
-    font-family: "Playfair Display", serif;
-    font-size: 20px;
-    margin-left: 20px;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  margin-left: 20px;
 }
 
 #footer {
-    display: flex;
-    background-color: #0093AF; 
-    height: 70vh;
+  display: flex;
+  background-color: #0093af;
+  height: 70vh;
 }
 
-#footerImg{
-    border: 1px solid black;
+#infoDiv {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 80%;
+  width: 25%;
+  margin-top: 35px;
+  margin-left: 120px;
 }
 
+#footerImgDiv {
+  margin-top: 60px;
+  margin-left: 150px;
+  border: 1px solid black;
+  width: 50%;
+  height: 80%;
+}
+
+#footerImgDiv > img {
+  height: 100%;
+  width: 100%;
+}
+
+#infoDiv > h1 {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+}
+
+#sentenceOne,
+#sentenceTwo {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+
+#telephoneDiv {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 80%;
+}
+
+#telephoneDiv > img {
+  height: 40px;
+  width: 40px;
+}
+
+#telephoneDiv > p {
+  color: white;
+  margin-left: 10px;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+
+#emailDiv {
+  display: flex;
+}
+
+#emailDiv > img {
+  height: 40px;
+  width: 40px;
+}
+
+#emailDiv > p {
+  color: white;
+  margin-left: 10px;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+}
+
+#footerIconDiv {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  height: 8%;
+  width: 50%;
+}
+
+#footerIconDiv > img {
+  height: 35px;
+  width: 35px;
+}
